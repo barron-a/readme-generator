@@ -1,3 +1,7 @@
+const inquirer = require('inquirer');
+const { writeFile } = require('./utils/generateMarkdown.js');
+
+
 // array of questions for user
 const questions = [
 
