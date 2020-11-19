@@ -120,20 +120,22 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('README.md', generateMarkdown(data), function (err) {
-        if (err) 
-        console.log(err);
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            console.log(err);
+        }
 
-        console.log('README.md complete! Check the dist/ folder to see the output.');
-    })
+        console.log(`README.md complete! Look for the file ${fileName} to see the output.`);
+    });
 };
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions)
-        .then((answers) => {
-            console.log(answers);
-        })
+    return inquirer.prompt(questions)
+        .then((responses) => {
+            console.log(responses);
+            writeToFile('README.md', generateMarkdown(responses));
+        });
 }
 
 // function call to initialize program
