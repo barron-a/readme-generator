@@ -1,10 +1,10 @@
 
-  # Test
+  # Test Project
 
-  ![License Badge](https://img.shields.io/badge/license-Mozilla--Public--2.0-blue.svg)
+  ![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  Test
+  This is a brief description of my project
 
   ## Table of Contents
 
@@ -16,21 +16,21 @@
   [Questions](#questions)
 
   ## Installation
-  Test
+  Clone the repository from GitHub
 
   ## Usage
-  Test
+  Follow the instructions in the provided README file
 
   ## License
-  This project is covered under the Mozilla--Public--2.0 license.
+  This project is covered under the MIT license.
 
   ## Contributing
-  Test
+  Be Helpful
 
   ## Tests
-  Test
+  Run a variety of tests
 
   ## Questions
   If you have any questions about this project, please connect with me via GitHub or Email!</br>
-  Github Profile: https://www.github.com/test-name</br>
-  Email Address: test@test.com
+  Github Profile: https://www.github.com/barron-a</br>
+  Email Address: adambarron@me.com
