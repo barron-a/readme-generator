@@ -61,12 +61,12 @@ const questions = [
             type: 'list',
             name: 'license',
             message: 'What type of license does your project use? (Required)',
-            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License', 'The Unlicense'],
+            choices: ['GNU-AGPLv3', 'GNU-GPLv3', 'GNU-LGPLv3', 'Mozilla-Public-2.0', 'Apache-2.0', 'MIT', 'Boost-Software', 'The-Unlicense'],
             loop: false
         },
         {
             type: 'input',
-            name: 'contribution',
+            name: 'contributing',
             message: 'What guidelines should developers follow when contributing to your project? (Required)',
             validate: contribution => {
                 if (contribution) {
@@ -131,9 +131,8 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    return inquirer.prompt(questions)
+    inquirer.prompt(questions)
         .then((responses) => {
-            console.log(responses);
             writeToFile('README.md', generateMarkdown(responses));
         });
 }
