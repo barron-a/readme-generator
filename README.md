@@ -50,7 +50,7 @@ Clone the repository from https://github.com/barron-a/readme-generator
 ---
 
 ## Usage
-To use this application navigate to the root folder from your Terminal and run 'node index.js' from the command line. You will be prompted with a series of questions and given instructions on how to find your completed README.md file.
+To use this application navigate to the cloned folder from your Terminal and run 'node index.js' from the command line. You will be prompted with a series of questions and given instructions on how to find your completed README.md file.
 
 ### Video Demo
 Please see the following link for a [video demo](https://drive.google.com/file/d/1WvRW_sMWYJqMZZx8QTceO1pf77kmH4a5/view)
