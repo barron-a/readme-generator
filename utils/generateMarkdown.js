@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   const template = `
   # ${data.title}
 
-  ![License Badge]https://img.shields.io/static/v1?label=license&message=${data.license}&color=blue
+  ![License Badge]https://img.shields.io/static/v1?label=license&message=${data.license}&color=blue.svg
 
   ## Description
   ${data.description}

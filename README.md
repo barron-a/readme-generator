@@ -1,10 +1,10 @@
 
-  # t
+  # test
 
-  ![License Badge]https://img.shields.io/static/v1?label=license&message=GNU-AGPLv3&color=blue
+  ![License Badge]https://img.shields.io/static/v1?label=license&message=GNU-AGPLv3&color=blue.svg
 
   ## Description
-  t
+  test
 
   ## Table of Contents
 
@@ -16,21 +16,21 @@
   [Questions](#questions)
 
   ## Installation
-  t
+  test
 
   ## Usage
-  t
+  test
 
   ## License
   This project is covered under the GNU-AGPLv3 license.
 
   ## Contributing
-  t
+  test
 
   ## Tests
-  t
+  test
 
   ## Questions
   If you have any questions about this project, please connect with me via GitHub or Email!</br>
-  Github Profile: https://www.github.com/t</br>
-  Email Address: t
+  Github Profile: https://www.github.com/barron-a</br>
+  Email Address: adambarron
