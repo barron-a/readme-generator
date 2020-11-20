@@ -61,7 +61,7 @@ const questions = [
             type: 'list',
             name: 'license',
             message: 'What type of license does your project use? (Required)',
-            choices: ['GNU-AGPLv3', 'GNU-GPLv3', 'GNU-LGPLv3', 'Mozilla-Public-2.0', 'Apache-2.0', 'MIT', 'Boost-Software', 'The-Unlicense'],
+            choices: ['GNU--AGPLv3', 'GNU--GPLv3', 'GNU--LGPLv3', 'Mozilla--Public--2.0', 'Apache--2.0', 'MIT', 'Boost--Software', 'The--Unlicense'],
             loop: false
         },
         {
@@ -116,7 +116,7 @@ const questions = [
                 }
             }
         }
-    ]
+]
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -133,6 +133,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((responses) => {
+
             writeToFile('README.md', generateMarkdown(responses));
         });
 }

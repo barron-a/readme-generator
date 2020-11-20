@@ -1,10 +1,12 @@
 
-  # test
+  # t
 
-  ![License Badge]https://img.shields.io/static/v1?label=license&message=GNU-AGPLv3&color=blue.svg
+  ![License Badge](https://img.shields.io/badge/license-GNU--LGPLv3-blue.svg)
+
+  undefined
 
   ## Description
-  test
+  t
 
   ## Table of Contents
 
@@ -16,21 +18,21 @@
   [Questions](#questions)
 
   ## Installation
-  test
+  t
 
   ## Usage
-  test
+  t
 
   ## License
-  This project is covered under the GNU-AGPLv3 license.
+  This project is covered under the GNU--LGPLv3 license.
 
   ## Contributing
-  test
+  t
 
   ## Tests
-  test
+  t
 
   ## Questions
   If you have any questions about this project, please connect with me via GitHub or Email!</br>
-  Github Profile: https://www.github.com/barron-a</br>
-  Email Address: adambarron
+  Github Profile: https://www.github.com/t</br>
+  Email Address: t

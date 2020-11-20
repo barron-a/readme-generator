@@ -1,9 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  const template = `
+  return `
   # ${data.title}
 
-  ![License Badge]https://img.shields.io/static/v1?label=license&message=${data.license}&color=blue.svg
+  ![License Badge](https://img.shields.io/badge/license-${data.license}-blue.svg)
+
+  ${data.badge}
 
   ## Description
   ${data.description}
@@ -37,7 +39,6 @@ function generateMarkdown(data) {
   Github Profile: https://www.github.com/${data.username}</br>
   Email Address: ${data.email}
 `;
-return template;
 }
 
 module.exports = generateMarkdown;
