@@ -1,38 +1,84 @@
 
-  # t
+# README Generator
 
-  ![License Badge](https://img.shields.io/badge/license-GNU--LGPLv3-blue.svg)
+---
 
-  undefined
+## Table of Contents
 
-  ## Description
-  t
+- [Description](#description)
+- [Images](#images)
+- [Installation](#installation)
+- [Using the App](#usage)
+- [Technologies](#technologies)
+- [References](#references)
+- [Author Info](#author-info)
+- [Links](#links)
 
-  ## Table of Contents
+---
 
-  [Installation](#installation)</br>
-  [Usage](#usage)</br>
-  [License](#license)</br>
-  [Contributing](#contributing)</br>
-  [Tests](#tests)</br>
-  [Questions](#questions)
+## Description
+The README Generator is a command line application that prompts a user for information about themselves and their project and generates a clean, professional markdown document.</br>
+Users will be prompted for:</br>
 
-  ## Installation
-  t
+* Title
+* Description
+* Installation Instructions
+* Usage Instructions
+* License Type
+* Contribution Instructions
+* Tests
+* Contact Info
 
-  ## Usage
-  t
+---
 
-  ## License
-  This project is covered under the GNU--LGPLv3 license.
+## Images
 
-  ## Contributing
-  t
+### Starting Application from CLI
+![Command to Start Application](/assets/images/command_to_start.jpg)
 
-  ## Tests
-  t
+### Questions and Filler Answers
+![All Questions Completed](/assets/images/questions_and_answers.jpg)
 
-  ## Questions
-  If you have any questions about this project, please connect with me via GitHub or Email!</br>
-  Github Profile: https://www.github.com/t</br>
-  Email Address: t
+### New File (Highlighted) In Folder
+![New File In Folder](/assets/images/file_highlighted.jpg)
+
+---
+
+## Installation
+Clone the repository from https://github.com/barron-a/readme-generator
+
+---
+
+## Usage
+To use this application navigate to the root folder from your Terminal and run 'node index.js' from the command line. You will be prompted with a series of questions and given instructions on how to find your completed README.md file.
+
+---
+
+## Technologies
+
+- JavaScript
+- Node.js
+- Inquirer
+
+---
+
+## References
+
+- Utilized Inquirer via NPM for user prompts
+- Utilized shields.io for license badges
+
+---
+
+## Author Info
+- Starter Code obtained from https://github.com/coding-boot-camp/potential-enigma
+- Remaining Code written by Adam Barron
+
+---
+
+## Links
+
+### Link to GitHub Repository
+https://github.com/barron-a/readme-generator
+
+
+[Back To The Top](#README-Generator)
